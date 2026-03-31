@@ -11,27 +11,10 @@ All files are located in the folder: `S_Yousfi_R_GitHub`
 - `Suplementary_materiel_execution_code.r` : contains examples of how to run the functions with test data
 - `README.md` : this file
 
-## Project Link
-You can access the full project on GitHub here:  
-[https://github.com/smail2025/S_Yousfi_R_GitHub](https://github.com/smail2025/S_Yousfi_R_GitHub)
-
-## Required Packages
-The following R packages are required to run the code:
-
-| Package | Purpose / Usage |
-|---------|----------------|
-| `moments` | Calculation of statistical moments, such as skewness and kurtosis for each batch. |
-| `MASS` | Generation of multivariate distributions and handling of covariance structures. |
-| `copula` | Construction of Gaussian copulas (`normalCopula`) and multivariate distributions (`mvdc`) for simulating dependent Gamma data. |
-| `mvtnorm` | Generation of multivariate normal or related distributions, often used with copulas. |
-| `cluster` | Hierarchical clustering and cluster analysis. |
-| `mclust` | Computation of clustering metrics such as Adjusted Rand Index (ARI). |
-| `kernlab` | Kernel-based methods for computing similarity matrices and functional PCA. |
-| `graphics` / `grDevices` | Plotting functions, including `plot()` and annotation of FPCA embeddings. |
-| `parallel` | Parallelization of heavy computations across batches and dimensions. |
-| `base` | Input/output functions such as `saveRDS()` and `readRDS()`. |
-
-Install them in R using:
+## How to Use
+1. Install R and the required packages (e.g., `ggplot2`, `MASS`, etc.).
+2. Place all files in the folder `S_Yousfi_R_GitHub`.
+3. In R or RStudio, load the functions first with:
 
 ```r
-install.packages(c("moments", "MASS", "copula", "mvtnorm", "cluster", "mclust", "kernlab"))
+source("Suplementary_materiel_code.r")
